@@ -51,7 +51,7 @@ class _BackdropState extends State<Backdrop>
   // Diese Methode wird an den Layout Builder (siehe unten) übergeben.
   Widget _buildStack(BuildContext context, BoxConstraints constraints) {
     return Container(
-      //key: _backdropKey,
+     
       color: Colors.teal[200], // widget.currentCategory.color,
       // Hier bauen wir einen Stack auf mit BackPanel und FrontPanel
       // Ausserdem verwenden wir eine FadeTransition, um den FrontPanel ein- und auszublenden
